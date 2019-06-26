@@ -1,0 +1,110 @@
+body{
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: #555;
+}
+a{
+  background-color: #ddd;
+  color: black;
+  font-family: gill sans mt;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+#chckBtn{
+  background-color: black;
+  color: white;
+  font-family: gill sans mt;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border-color: black;
+  padding: 10px;
+  position: absolute;
+  right: 100px;
+}
+#retBtn{
+  background-color: black;
+  color: white;
+  font-family: gill sans mt;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  border-color: black;
+  padding: 10px;
+  position: absolute;
+  right: 20px;
+}
+.button{
+  background-color: #1170C3;
+  color: white;
+  font-family: gill sans mt;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+}
+.modal-header, h4, .close {
+    background-color: #5d738c;
+    color:light_gray !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+h1{
+  color: black;
+  font-family: high tower text;
+  text-align: center;
+}
+
+h2{
+  color: white;
+  font-family: javanese text;
+  margin-bottom: -10px;
+  background-color: #333;
+  padding: 10px;
+}
+#itemsL, #itemsA {
+  display: none;
+}
+#itemsC, #itemsL, #itemsA{
+  background-color: white;
+  padding:50px;
+}
+.center{
+  text-align: center;
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  width: 75%;
+}
+
+table, th, td {
+  font-family: gill sans mt;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.reserve{
+  background-color: black;
+  color: white;
+  font-family: gill sans mt;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+fieldset{
+  background-color: white;
+  margin: 20px;
+  border: 1px solid rgb(0,0,0);
+  width: 400px;
+  text-align: center
+  display:inline-block;
+}
+input[type=button] {
+  margin:auto;
+}

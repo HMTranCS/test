@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Info</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="public/css/adminStyle.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Admin</h1>
+    <a href="/">Sign Out</a>
+    <a href="/session">To Camera Catalog</a>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <fieldset>
+      <legend>Current Students</legend>
+      <table id="studentInfo" border="2">
+        <tr>
+          <th>Student Name</th>
+          <th>Student ID</th>
+          <th>Grade Level</th>
+          <th>Period</th>
+        </tr>
+      </table>
+    </fieldset>
+    <form action="#">
+      <fieldset>
+        <legend>Inventory Modification</legend>
+          <div>
+            <p>Add or delete cameras in the database.</p><br>
+            <label for="camIdent">ID Number:</label>
+            <input id="camIdent" type="number" name="index" min="0">
+            <br> <br>
+            <label for="camName">Name:</label>
+            <input id="camName" type="text" name="object" value="">
+            <br> <br>
+            <textarea id ="descript" name="description" rows="5" cols="40" placeholder="Add a description."></textarea>
+            <br>
+            <br>
+            <input type="reset" value="Clear Form">
+
+          </div>
+          <br>
+          <input type="button" id="createCameraButton" name="" value="Create">
+          <input type="button" id="updateCameraButton" name="" value="Update">
+        </fieldset>
+      </form>
+      <hr>
+      <br>
+      <h1>Checked Out Cameras</h1>
+      <table id="info" border="2">
+        <tr>
+          <th>Student Name</th>
+          <th>Student ID</th>
+          <th>Camera Name</th>
+          <th>Camera ID</th>
+          <th>Date Checked Out</th>
+          <th>Date Due</th>
+          <th>Returned?</th>
+          <th>Overdue?</th>
+        </tr>
+      </table>
+      <br>
+    <p style="color: #333; font-family:goudy old style; text-align:right">Made by the MVHS web programming class</p>
+    <script src="js/info.js"></script>
+  </body>
+</html>
